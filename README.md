@@ -1,5 +1,5 @@
 Step1: Create div tag in your html file with some id
-eg:   <div id="apModal" style="display:none">
+` <div id="apModal" style="display:none">`
 
 Step2: Install NPM module in your project
   npm install fmti-modal-window
