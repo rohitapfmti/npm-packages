@@ -2,14 +2,14 @@ Step1: Create div tag in your html file with some id
 ` <div id="apModal" style="display:none">`
 
 Step2: Install NPM module in your project
-  npm install fmti-modal-window
+  `npm install fmti-modal-window`
   
 Step3: Import package in your js file
-import fmtiModalWindow from 'fmti-modal-window';
+`import fmtiModalWindow from 'fmti-modal-window';`
 
 step4: Then play around this. By default it will hidden, you Can write
   code according to your need, Here I am giving exapmle for button click
- eg:  
+``` eg:  
    document.getElementById("apModal").addEventListener("click",()=>{
        
      const modalwindow =  fmtiModalWindow.init({
@@ -55,7 +55,7 @@ step4: Then play around this. By default it will hidden, you Can write
                      console.log("err",err);
               });
     }); 
-    
+    ```
     Step5: There are 2 buttons in popup 
       leftbutton(id = FMTI-MODAL-BTN-LEFT) & rightbutton (id = FMTI-MODAL-BTN-RIGHT)
       
