@@ -49,7 +49,7 @@ step4: Then play around this. By default it will hidden, you Can write
              To display Modal window promise need to be resolved....
               modalwindow.then((data)=>{
                     if(data.success){
-                       ro.openModal(data.controllerId);
+                       fmtiModalWindow.openModal(data.controllerId);
                     }
               }).catch((err)=>{
                      console.log("err",err);
