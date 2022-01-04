@@ -2,7 +2,9 @@
 ## Installation
 Install FMTI Modal Window using below command
 `npm install fmti-modal-window --save`
-  [ ] Step 1: Add div tag in your html file as below
+
+
+[ ] Step 1: Add div tag in your html file as below
 ```html
 <div id="apModal" style="display:none"></div>
 Note: id This can be any string
@@ -15,9 +17,10 @@ Note: id This can be any string
 ```js
   #Below are the properties exist in modal window
   const modalwindow =  fmtiModalWindow.init({
+    modalWindowId: "contact-delete-popup", // This is the ID of modal popup, It can be any thing
     containerStyle:{}, //Modal window container style
     headerInfo:{
-       showTitle: true, /true, false
+       showTitle: true, //true false
        text: "The Purpose of our lives",
        style:{} //Style can be given in for header text etc
     },
@@ -60,7 +63,7 @@ Note: id This can be any string
           show: true,
           text: "Delete",
           enable: false,
-          onclick: ()=>{} // function reference
+          onclick: ()=>{}, // function reference
           style:{} // right button style
        }
     }
@@ -104,5 +107,6 @@ Note: id This can be any string
           }
        ]
 ```
+`Note: If you are facing any issue in implimentation ,We are ready to help you. Please report issue at rohitapfmti@gmail.com`
 
 Thanks
